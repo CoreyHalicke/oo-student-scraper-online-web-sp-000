@@ -16,15 +16,6 @@ class Scraper
       students_hash = {}
     end
     students
-# name: student.css("h4.student-name").text
-# location: student.css("p.student-location").text
-# twitter:
-# linkedin:
-# github:
-# blog:
-# profile_quote:
-# bio:
-# profile_url: student.css("a").attribute("href").value
   end
 
   def self.scrape_profile_page(profile_url)
@@ -50,3 +41,14 @@ class Scraper
   end
 
 end
+
+
+# name: student.css("h4.student-name").text
+# location: student.css("p.student-location").text
+# twitter:
+# linkedin:
+# github:
+# blog:
+# profile_quote:
+# bio:
+# profile_url: student.css("a").attribute("href").value
